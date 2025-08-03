@@ -26,7 +26,7 @@ export default function ExchangeRatesList({ rates, direction }: Props) {
         {currentRates.map(([symbol, rate]) => (
           <li key={symbol} className="flex items-center gap-3 p-3 border rounded-md bg-white dark:bg-slate-900">
             <div className="w-6 h-6 shrink-0">
-              <Image
+              <img
                 src={`/icon/${symbol.toUpperCase()}.png`}
                 alt={`${symbol} icon`}
                 width={24}
