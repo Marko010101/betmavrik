@@ -1,0 +1,8 @@
+{
+  "HomePage": {
+    "title": "View current Euro exchange rates for popular cryptocurrencies",
+    "exchangeFetchError": "Unfortunately, currency exchange data could not be retrieved",
+    "nextBtn": "Next",
+    "prevBtn": "Previous"
+  }
+}
